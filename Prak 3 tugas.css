@@ -1,0 +1,182 @@
+@media only screen and (min-width: 769px){
+
+    body {
+        background-color: white;
+    }
+  
+    .text {
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+  
+    .container1 {
+        align-items: center;
+        background-color: rgb(51, 180, 187);
+    }
+    .container2 {
+        background-color: rgb(255, 255, 255);
+        margin: 15px;
+        border: 1px solid rgb(129, 129, 129);
+        border-radius: 10px;
+    }
+    .container3 {
+        background-color: white;
+        margin: 30px;
+    }
+    .container3 ul {
+        display: flex;
+    }
+    .img {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+  
+    .img2 {
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 155px;
+        height: 150px;
+        float: right;
+    }
+  
+    p {
+        text-align: justify;
+    }
+  
+    td {
+        text-align: center;
+    }
+  
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }    
+    li {
+        display: inline;
+        margin-right: 20px;
+    }        
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav a {
+        color: rgb(255, 255, 255);
+        padding: 16px 16px;
+        text-decoration: none;
+    }
+    nav button {
+        background-color: rgb(106, 41, 219);
+        color: rgb(236, 236, 236);
+        padding: 10px;
+        border-radius: 30px;
+        margin: 10px;
+        border: 2px solid white;
+    }
+    .button {
+        background-color: rgb(87, 76, 244);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid blue;
+        cursor: pointer;
+    }
+    .button2 {
+        background-color: rgb(73, 134, 219);
+        color: white;
+        margin: 10px;
+        padding: 100px 185px;
+        border: 1px solid rgb(73, 134, 219);
+        cursor: pointer;
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+  
+    body {
+        background-color: white;
+    }
+    
+    .text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .container1 {
+        align-items: center;
+        background-color: rgb(228, 78, 45);
+    }
+    .container2 {
+        background-color: white;
+        margin: 15px;
+        border: 1px solid rgb(129, 129, 129);
+        border-radius: 10px;
+    }
+    .container3 {
+        background-color: white;
+        margin: 10px;
+    }
+    .img {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+    
+    .img2 {
+        margin: 20px auto 0 auto;
+        max-width: 150px;
+        display: block;
+    }
+    
+    p {
+        text-align: justify;
+    }
+  
+    td {
+        text-align: center;
+    }
+  
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }    
+    li {
+        margin-right: 20px;
+    }        
+    nav {
+        align-items: center;
+    }
+    nav a {
+        color: rgb(255, 255, 255);
+        padding: 16px 16px;
+        text-decoration: none;
+    }
+    nav button {
+        background-color: rgb(219, 65, 41);
+        color: rgb(236, 236, 236);
+        padding: 10px;
+        border-radius: 30px;
+        margin: 10px;
+        border: 2px solid white;
+    }
+    .button {
+        background-color: rgb(87, 76, 244);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid blue;
+        cursor: pointer;
+    }
+    .button2 {
+        background-color: rgb(73, 134, 219);
+        color: white;
+        margin: 5px;
+        padding: 100px 135px;
+        border: 1px solid rgb(73, 134, 219);
+        cursor: pointer;
+    }
+  }
+    
